@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caja{
+    background-color: rgb(213, 213, 175);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+.position{
+    background-color: rgb(161, 76, 76);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.caja-padre{
+    margin: 20px;
+    background-color: rgb(170, 121, 216);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+/* Encabezado */
+.header{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 5px 0pc;
+}
+.header-title{
+    color: rgb(125, 125, 125);
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.header-title-description{
+    color: rgb(125, 125, 125);
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+/* Respuesta */
+.answer{
+    text-align: center;
+    padding: 10px 0px;
+}
+.answer p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(125, 125, 125);
+}
+
+
+/* Contenedor de cajas */
+.figure{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cajas */
+.box{
+    width: 95%;
+    max-width: 340px;
+    height: 600px;
+    border: 3px solid gainsboro;
+    border-radius: 10px ;
+    margin: 15px;
+    float: left;
+}
+.box-header{
+    background-color: gainsboro;
+    padding: 15px 0px;
+    text-align: center;
+    color: rgb(125, 125, 125);
+}
+.box-main{
+    text-align: center;
+    padding: 10px;
+}
+.box-main__text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(125, 125, 125);
+}
+.box-main__input{
+    height: 40px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(125, 125, 125);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: solid gainsboro;
+    border-radius: 5px;
+}
+.box-main__btn{
+    background-color: gainsboro;
+    color: rgb(125, 125, 125);
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+.box-main__btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.box-main__btn:active{
+    opacity: 0.4;
+}
+
+/* Web responsive*/
+@media  screen and (max-width: 800px){
+    .figure{
+        flex-direction: column; /* Se cambia la direccion en pantallas pequeñas*/
+    }
+    .box{
+        max-width: none;
+        height: auto;
+    }
+    .answer p{
+        font-size: 20px;
+    }
+}
+
+

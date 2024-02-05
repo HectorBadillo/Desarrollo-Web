@@ -1,0 +1,26 @@
+*{
+    color: chocolate;
+    background-color: azure;
+}
+
+p{
+    color: rgb(10, 116, 116);
+}
+
+h1, h2{
+    color: brown;
+}
+
+.p1{
+    color: blueviolet;
+    font-size: 18px;
+}
+
+.p2{
+    color: thistle;
+    font-size: 24px;
+}
+
+#subtitulo{
+    color: cadetblue;
+}

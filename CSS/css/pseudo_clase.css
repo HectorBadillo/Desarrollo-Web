@@ -1,0 +1,28 @@
+.menu{
+    background-color: rgb(226, 235, 235);
+}
+.menu-nav{
+    list-style: none;
+    text-align: center;
+}
+.menu-nav__item{
+    display: inline-block;
+    margin: 30px;
+}
+.menu-nav__item a{
+    color: gray;
+    text-decoration: none;
+}
+
+/* Pseudo clases*/
+.menu-nav__item a:hover{
+    color: black;
+}
+.menu-nav__item a:active{
+    color: gray;
+}
+
+/* Pseudo elemento */
+.menu-nav__item a::after{
+    content: " | ";
+}

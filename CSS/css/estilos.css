@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    font-size: 34px;
+    text-align: center;
+}
+
+body{
+    background: rgb(167, 53, 127);
+    font-family: sans-serif;
+}
+
+pre{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td{
+    border: 1px solid gray;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: gainsboro;
+}
+
+tr:hover{
+    background-color: gainsboro;
+}
+
